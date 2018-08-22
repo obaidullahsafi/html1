@@ -1,0 +1,43 @@
+html{    
+        height: 100%;
+         }
+    
+body{background-image:url(nature.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+background-position: center;
+}
+ul{ list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    margin-left:1px;
+    margin-bottom: 1px;
+    background-color: black;
+    color:white;
+    float: left;
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+   
+  
+   
+    
+li a{
+    text-decoration: none;
+    color:white;
+    display:block;
+}
+ li a:hover{background-color:greenyellow;
+
+}
+ul li ul li{
+    display:none;
+}
+ul li:hover ul li{
+    display: block;
+}
